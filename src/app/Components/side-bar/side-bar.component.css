@@ -1,0 +1,32 @@
+.side-nav {
+  top: 0px;
+  left: 0px;
+  width: 99px;
+  height: 100vh;
+  background: var(--primary-color) 0% 0% no-repeat padding-box;
+  border-radius: 0px 30px 30px 0px;
+  opacity: 1;
+  z-index: 100000;
+}
+.core-contnet img:first-child {
+  width: 40px;
+  height: 40px;
+}
+.core-contnet img:nth-child(2) {
+  width: 27px;
+  height: 27px;
+}
+.core-contnet img:nth-child(3) {
+  width: 33px;
+  height: 33px;
+}
+.core-contnet img:nth-child(4),
+.core-contnet img:last-child,
+.logout img {
+  width: 44px;
+  height: 44px;
+}
+.logo img {
+  width: 64px;
+  height: 64px;
+}

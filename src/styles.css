@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ff7f5c;
+  --secondary-color: #f9f5f3;
+  --white-color: #fff;
+  --dark-gray-color: #3d5161;
+  --light-gray-color: #f9f5f3;
+  --header-font-size: 40px;
+  --title-font-size: 20px;
+  --mini-font-size: 16px;
+}
+.container-fluid {
+  padding: 0 150px !important;
+  padding-right: 40px !important;
+}
+.container-fluid.main { 
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+}
