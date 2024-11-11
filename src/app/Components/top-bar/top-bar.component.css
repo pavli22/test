@@ -37,13 +37,14 @@
   background-color: #f8f5f3;
 }
 .segment {
+  display: inherit;
   border: none;
   background: none;
   font-size: 14px;
   color: var(--dark-gray-color);
   border-radius: 20px;
   cursor: pointer;
-  padding: 8px 35px;
+  padding: 10px 25px;
   transition: background-color 0.3s, color 0.3s;
   text-transform: uppercase;
 }
