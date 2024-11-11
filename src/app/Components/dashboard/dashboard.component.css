@@ -108,6 +108,11 @@
   overflow: hidden;
   color: var(--dark-gray-color) !important;
 }
+.nav-link span {
+ font-size: 14px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
 .nav-link.active {
   border-radius: 32px !important;
   background-color: var(--primary-color) !important;
