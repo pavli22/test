@@ -31,7 +31,7 @@
   line-height: 1.1;
 }
 .segmented-control {
-  width: 100%;
+  width: fit-content;
   display: flex;
   border-radius: 25px;
   background-color: #f8f5f3;
