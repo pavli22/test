@@ -7,7 +7,8 @@
   color: var(--dark-gray-color);
 }
 .statistics .data {
-  width: 25%;
+  width: 100%;
+  overflow: hidden;
   padding: 25px;
   border-radius: 32px;
 }
@@ -21,6 +22,10 @@
   font-size: 22px;
 }
 .statistics .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
   font-size: 17px;
   font-weight: bold;
 }
@@ -109,9 +114,9 @@
   color: var(--dark-gray-color) !important;
 }
 .nav-link span {
- font-size: 14px;
- font-weight: 600;
- text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .nav-link.active {
   border-radius: 32px !important;

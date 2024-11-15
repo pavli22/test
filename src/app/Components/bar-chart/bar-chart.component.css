@@ -4,12 +4,17 @@ div {
   align-items: center;
 }
 .content-text {
+  padding: 0 20px !important;
+  width: 100%;
   border-bottom: 1px solid #3d51616a;
 }
 .header {
   font-size: 12px;
   color: var(--dark-gray-color);
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .nav-list_ li {
   font-size: 14px;

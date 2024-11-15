@@ -15,15 +15,19 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--secondary-color);
 }
-.container-fluid {
+.main-container{
+  margin-left: 50px;
+}
+/* .container-fluid {
   padding: 0 150px !important;
   padding-right: 40px !important;
 }
 .container-fluid.main {
   background-color: var(--secondary-color);
   min-height: 100vh;
-}
+} */
 
 *::-webkit-scrollbar {
   width: 8px;

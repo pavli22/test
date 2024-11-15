@@ -1,7 +1,10 @@
 .top-bar {
-  padding: 40px 0;
+  padding: 20px 60px;
   background: var(--white-color) 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+.content-stations {
+  width: fit-content;
 }
 .stations-img {
   position: relative;
@@ -22,6 +25,7 @@
 }
 .stations-text {
   color: var(--dark-gray-color);
+  width: 100%;
 }
 .stations-text .number {
   font-size: 32px;
@@ -37,14 +41,16 @@
   background-color: #f8f5f3;
 }
 .segment {
-  display: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 25px;
   border: none;
   background: none;
   font-size: 14px;
   color: var(--dark-gray-color);
   border-radius: 20px;
   cursor: pointer;
-  padding: 10px 25px;
   transition: background-color 0.3s, color 0.3s;
   text-transform: uppercase;
 }
@@ -54,6 +60,7 @@
   font-weight: bold;
 }
 .date-input-wrapper {
+  width: fit-content;
   display: flex;
   align-items: center;
   position: relative;
@@ -73,6 +80,8 @@
   background-color: var(--primary-color);
 }
 .date-input {
+  width: fit-content;
+
   border: none;
   outline: none;
   font-size: 14px;
