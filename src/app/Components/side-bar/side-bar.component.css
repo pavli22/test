@@ -1,7 +1,7 @@
 .side-nav {
   top: 0px;
   left: 0px;
-  height: 100vh;
+  height: 100%;
   width: fit-content;
   position: fixed;
   padding: 10px;

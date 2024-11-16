@@ -1,7 +1,7 @@
 .top-bar {
   padding: 20px 60px;
-  background: var(--white-color) 0% 0% no-repeat padding-box;
   opacity: 1;
+  overflow: auto;
 }
 .content-stations {
   width: fit-content;
@@ -34,9 +34,8 @@
   font-size: 13px;
   line-height: 1.1;
 }
-.segmented-control {
+.days-switching {
   width: fit-content;
-  display: flex;
   border-radius: 25px;
   background-color: #f8f5f3;
 }
@@ -44,7 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 25px;
+  padding: 5px 25px;
   border: none;
   background: none;
   font-size: 14px;
@@ -53,6 +52,7 @@
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 .segment.active {
   background-color: var(--primary-color);

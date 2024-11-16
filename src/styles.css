@@ -16,8 +16,9 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--secondary-color);
+  height: 100vh;
 }
-.main-container{
+.main-container {
   margin-left: 50px;
 }
 /* .container-fluid {
